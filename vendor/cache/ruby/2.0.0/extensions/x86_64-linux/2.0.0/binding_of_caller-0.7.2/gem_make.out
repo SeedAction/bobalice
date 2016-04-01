@@ -1,0 +1,12 @@
+/home/rekast/.rvm/rubies/ruby-2.0.0-p598/bin/ruby -r ./siteconf20160401-7991-2rnyvt.rb extconf.rb 
+
+make "DESTDIR=" clean
+make: *** Pas de règle pour fabriquer la cible « clean ». Arrêt.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.

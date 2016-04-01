@@ -1,0 +1,10 @@
+/home/rekast/.rvm/rubies/ruby-2.0.0-p598/bin/ruby -r ./siteconf20160401-7991-1835vju.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Rien à faire pour « all ».
+
+make "DESTDIR=" install
+installing default libraries

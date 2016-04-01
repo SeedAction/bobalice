@@ -1,0 +1,12 @@
+/home/rekast/.rvm/rubies/ruby-2.0.0-p598/bin/ruby -r ./siteconf20160401-7991-12q3p55.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug_inspector.so ./.gem.20160401-7991-3wh975
+installing default debug_inspector libraries
