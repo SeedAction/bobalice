@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - bobalice_dev@localhost" uuid="cde3dc84-fd5f-4f94-9430-8fb3aa4f7838">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>bobalice_dev.*</schema-pattern>
+      <default-schemas>bobalice_dev.*</default-schemas>
+    </data-source>
+  </component>
+</project>
