@@ -7,6 +7,9 @@
 # Ignore database config files
 /config/database.yml
 
+# Ignore .idea files (prevent error w/ RubyMine)
+/.idea
+
 # Ignore bundler config.
 /.bundle
 
