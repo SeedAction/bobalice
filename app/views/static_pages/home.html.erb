@@ -1,3 +1,6 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
-<a href="/static_pages/about">Click Me!</a>
+<div class="center jumbotron">
+	<h1>Welcome to the Sample App</h1>
+	<h2>This is the home page for the <a href="/static_pages/about">Bobalice</a> sample application.</h2>
+	<%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails-logo.svg", alt: "Rails logo"), about_path %>
