@@ -7,6 +7,8 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
      	post users_path, user: { name: "", email: "user@invalid", password: "foo", password_confirmation: "bar" }
      end
      assert_template 'users/new'
+     assert_select "div#error_explanation"
+     assert_select "div.field_with_errors", count: 8
   end
 
   test "valid signup submission" do
@@ -15,5 +17,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   		post_via_redirect users_path, user: { name: "user", email: "user@valid.com", password: "foobar", password_confirmation: "foobar" }
   	end
   	assert_template 'users/show'
+    assert_not_nil flash
   end
 end
