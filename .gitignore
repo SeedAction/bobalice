@@ -27,3 +27,6 @@
 
 # Ignore Spring files.
 /spring/*.pid
+
+# Ignore Byebug history
+/.byebug_history
